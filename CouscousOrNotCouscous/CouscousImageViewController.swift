@@ -56,12 +56,6 @@ class CouscousImageViewController: UIViewController {
         couscousImage.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         couscousImage.widthAnchor.constraint(equalToConstant: view.frame.width - 40).isActive = true
         
-//        if (couscousImage.image?.size.width)! > (couscousImage.image?.size.height)! {
-//            couscousImage.contentMode = .scaleAspectFit
-//        } else {
-//            couscousImage.contentMode = .scaleAspectFill
-//        }
-        
         isOrNotCouscous.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         isOrNotCouscous.widthAnchor.constraint(equalToConstant: view.frame.width).isActive = true
         isOrNotCouscous.topAnchor.constraint(equalTo: view.topAnchor, constant: 0).isActive = true
