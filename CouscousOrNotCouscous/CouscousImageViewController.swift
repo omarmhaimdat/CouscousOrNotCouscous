@@ -11,7 +11,7 @@ import UIKit
 class CouscousImageViewController: UIViewController {
     
     let isOrNotCouscous: UIImageView = {
-        let image = UIImageView(image: #imageLiteral(resourceName: "isNotCouscous"))
+        let image = UIImageView(image: UIImage())
         image.translatesAutoresizingMaskIntoConstraints = false
         image.contentMode = .scaleToFill
         return image

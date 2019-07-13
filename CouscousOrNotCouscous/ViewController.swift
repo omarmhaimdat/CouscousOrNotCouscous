@@ -125,7 +125,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                         controller.isOrNotCouscous.image = #imageLiteral(resourceName: "isNotCouscous")
                         self?.present(controller, animated: true)
                     }
-                    print("\(topResult.identifier) with \(Int(topResult.confidence * 100))% confidence")
                 }
             }
             
